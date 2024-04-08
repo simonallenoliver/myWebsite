@@ -8,9 +8,7 @@
 
   /* Header Component Classes */
 .headerBox{
-  margin-top: 0px;
-  margin-bottom: 3px;
-  margin-left: 0px;
+  padding: 5px 10px 5px 10px;
   display: flex;
   align-items: center;
   background-color: white;
@@ -20,4 +18,24 @@
   left: 0px;
   right: 0px;
   justify-content:space-between;
+}
+
+/* Hello itsa me classes */
+.row1{
+  margin-top: 40px;
+  display: flex;
+}
+.col0{
+  flex: 1;
+}
+.col1{
+  flex: 5;
+}
+.textbox{
+  display: flex;
+  width: 500px;
+}
+
+.col2{
+  flex: 4;
 }

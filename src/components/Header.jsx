@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <>
       <div className='headerBox'>
-        <div>menu contact github linkedin</div>
+        <div>navigate</div>
+        <div>contact github linkedin</div>
       </div>
 
     </>
