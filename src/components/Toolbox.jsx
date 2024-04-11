@@ -2,20 +2,40 @@ import React from 'react'
 
 const Toolbox = () => {
     return (
-        <div className='row1'>
-            <div className='col0'></div>
-            <div className='col1'>
-                
-            </div>
-            <div className='col2'>
-            <h1>My Tools</h1>
-                <h3>bolded tools were used on for this website</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node</li>
+        <div className='toolRow'>
+            <div className='toolCol'>
 
-                </ul>
+
+                <h1 id='myTools'>My Tools</h1>
+                <div className='toolBox'>
+                    <div className='lilToolBox'>
+                        <h3>Languages</h3>
+                        <p>Python</p>
+                        <p>JavaScript</p>
+                        <p>C#</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
+                    </div>
+                    <div className='lilToolBox'>
+                        <h3>Front End</h3>
+                        <p>React</p>
+                        <p>Ajax</p>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div className='lilToolBox'>
+                        <h3>Back End</h3>
+                        <p>NODE.js</p>
+                        <p>Express</p>
+                        <p>Flask</p>
+                        <p>OOP</p>
+                    </div>
+                    <div className='lilToolBox'>
+                        <h3>Database</h3>
+                        <p>MongoDB</p>
+                        <p>Mongoose</p>
+                        <p>MySQL</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
