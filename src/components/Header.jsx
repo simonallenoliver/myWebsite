@@ -8,9 +8,9 @@ const Header = () => {
       <div className='leftBox'></div>
       <div className='rightBox'>
         <div className='linkBox'>
-          <div className='headLinks'>contact - <a href="mailto:simonallenoliver@gmail.com">Send an Email</a></div>
-          <div className='headLinks'><a href="https://github.com/simonallenoliver" target="_blank">github</a></div>
-          <div className='headLinks'><a href="http://www.linkedin.com/in/simon-oliver-66807213b" target="_blank">linkedin</a></div>
+          <div className='headLinks'><a href="mailto:simonallenoliver@gmail.com"><img src='/images/mail.png' className='icon' alt="email" /></a></div>
+          <div className='headLinks'><a href="https://github.com/simonallenoliver" target="_blank"><img src='/images/github.png' className='icon' alt="github" /></a></div>
+          <div className='headLinks'><a href="http://www.linkedin.com/in/simon-oliver-66807213b" target="_blank"><img src='/images/linked.png' className='icon' alt="linkedin" /></a></div>
         </div>
       </div>
     </div>

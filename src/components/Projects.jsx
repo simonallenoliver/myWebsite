@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <div className='projRow'>
             <div className='projectSection'>
-                <h1>Projects</h1>
+                <h1 id='Projects'>Projects</h1>
                 <div className='projectContainer'>
                     <div className='projectBox'>
                         <h2>Leafy</h2>
@@ -16,7 +16,7 @@ const Projects = () => {
                     </div>
                     <div className='projectBox'>
                         <h2>Sand</h2>
-                        <p>a short choose your own adventure game I built using Python, Flask and MySQL</p>
+                        <p>a short browser interactive story I built using Python, Flask and MySQL</p>
                     </div>
 
                 </div>

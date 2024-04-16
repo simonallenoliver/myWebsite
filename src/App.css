@@ -1,15 +1,15 @@
 *{
-  color: whitesmoke;
+  color: rgb(204, 204, 204);
   margin: 0;
   padding: 0;
   font-family:Alegreya Sans;
   font-weight: normal;
   font-size: 15;
-  background-color: rgb(29, 29, 32);
+  background-color: rgb(28, 27, 33);
   }
 
   .bigBox{
-    margin: 60px 80px 80px 150px;
+    margin: 20px 80px 80px 150px;
   }
 
   h3{
@@ -23,6 +23,14 @@
   align-items: center;
   border-bottom: 1px solid grey;
 }
+
+.icon{
+  width: 24px;
+}
+.icon:hover{
+  transform: scale(1.2);
+}
+
 .leftBox{
   flex: 1;
 }
@@ -36,19 +44,20 @@
   justify-content: right;
 }
 .headLinks{
-  padding: 4px;
+  margin: 5px 7px 5px 7px;
 }
 
 
 /* Simon Classes */
 .row1{
-  margin: 0;
-  width: 60%;
+  margin-top: 70px;
+  width: 90%;
+  display: flex;
 }
 #simonOliver{
   font-size: 50pt;
   text-decoration: dotted;
-  font-family: Alegreya Sans;
+  margin-top: 160px;
 
 
 }
@@ -63,7 +72,6 @@
   display: flex;
   padding: 15px;
   border-top: solid 2px blue;
-  border-left: solid 2px blue;
   font-size: 13pt;
 }
 .longtext{
@@ -71,10 +79,10 @@
 }
 .col1{
 
-  
+  flex: 1;
 }
 .col2{
-  flex: 4;
+  flex: 1;
 }
 /* experience classes */
 .xprow{
@@ -85,6 +93,7 @@
 .xpBox{
   width: 30%;
 }
+
 .exphead{
   font-size: 40pt;
 }
@@ -97,52 +106,70 @@
   width: 90%;
   font-size: 13pt;
 }
+.resumeBox{
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-size: 16pt;
+}
 
 /* my tools classes */
 .toolRow{
-  margin-top: 30px;
-  width: 60%;
+  margin-top: 10px;
   display: flex;
 }
 .toolCol{
-  width: 100%;
+  flex: 1;
 }
 #myTools{
   font-size: 30pt;
   font-family: Alegreya Sans;
   font-weight:250;
+  margin-bottom: 5px;
+  margin-left: 14px;
 }
 
 .toolBox{
   display: flex;
   justify-content: center;
-  gap: 30px;
   border-bottom: solid 2px blue;
-  border-right: solid 2px blue;
+  padding-bottom: 10px;
   width: 100%;
 }
 .lilToolBox{
-width: 15%;
+  width: 15%;
+  padding: 15px;
 }
+
 /* project classes */
+#Projects{
+  font-size: 40pt;
+}
 .projRow{
-  margin-top: 240px;
-  margin-bottom: 100px;
+  margin-top: 350px;
+  margin-bottom: 300px;
   display: flex;
   justify-content: left;
 }
 .projectSection{
   padding: 10px;
-  margin: 0 20px 0 40px;
+  margin: 0 20px 0 0px;
 }
 .projectContainer{
 display: flex;
 gap: 20px;
 margin-top: 30px;
+justify-content: center;
 }
 .projectBox{
   border: 2pt solid whitesmoke;
   padding: 10px;
+  width: 25%;
+}
+
+.projectBox:hover{
+  border: 2pt solid blue;
 }
 
 

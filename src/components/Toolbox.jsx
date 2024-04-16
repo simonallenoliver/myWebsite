@@ -27,7 +27,6 @@ const Toolbox = () => {
                         <p>NODE.js</p>
                         <p>Express</p>
                         <p>Flask</p>
-                        <p>OOP</p>
                     </div>
                     <div className='lilToolBox'>
                         <h3>Database</h3>

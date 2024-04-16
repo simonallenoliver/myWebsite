@@ -13,9 +13,9 @@ const Home = () => {
       <div className="bigBox">
 
         <Hello />
-        <Toolbox />
-        <Experience />
         <Projects />
+        <Experience />
+        
         {/* <AboutMe/>
     <Footer/> */}
       </div>
