@@ -31,12 +31,12 @@ const Experience = () => {
                     <div className='littleEdBox'>
                         <p style={{fontWeight:"bolder"}}>Drake University</p>
                         <p>May, 2019</p>
-                        <p>BA Political Science</p>
+                        <p>Bachelor of Arts in Politics</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div className='resumeBox'>full resume</div>
+        <div className='resumeBox'><a href="https://pdflink.to/6537abbc/" target="_blank">View Full Resume</a></div>
         </>
     )
 }

@@ -19,6 +19,7 @@ const Toolbox = () => {
                     <div className='lilToolBox'>
                         <h3>Front End</h3>
                         <p>React</p>
+                        <p>Vite</p>
                         <p>Ajax</p>
                         <p>Bootstrap</p>
                     </div>
@@ -33,6 +34,7 @@ const Toolbox = () => {
                         <p>MongoDB</p>
                         <p>Mongoose</p>
                         <p>MySQL</p>
+                        <p>Postman</p>
                     </div>
                 </div>
             </div>

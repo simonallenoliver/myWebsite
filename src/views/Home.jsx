@@ -10,14 +10,10 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="bigBox">
-
-        <Hello />
-        <Projects />
-        <Experience />
-        
-        {/* <AboutMe/>
-    <Footer/> */}
+      <div className="scrollContainer">
+        <div className="scrollChild"><Hello /></div>
+        <div className="scrollChild"><Projects /></div>
+        <div className="scrollChild"><Experience /></div>
       </div>
     </>
   )

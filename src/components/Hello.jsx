@@ -11,8 +11,8 @@ const Hello = () => {
 
             <div className='col2'>
                 <div className='textbox'>
-                    <div >
-                        <h2 id='fullstack'>About Me</h2>
+                    <div>
+                        <h2 className='aboutMe'>About Me</h2>
                         <p className='longtext'> I love exploring new ideas and delving deep
                             into strange concepts; that’s how I ended up here. After working in sports wagering regulation and
                             compliance for nearly four years, I decided to make a big change and pursue a field that I
