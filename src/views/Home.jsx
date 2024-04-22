@@ -9,11 +9,13 @@ import Footer from "../components/Footer"
 const Home = () => {
   return (
     <>
-      <Header />
-      <div className="scrollContainer">
-        <div className="scrollChild"><Hello /></div>
-        <div className="scrollChild"><Projects /></div>
-        <div className="scrollChild"><Experience /></div>
+      <div className="mainContainer">
+        <div>
+          <div><Header /></div>
+          <div><Hello /></div>
+          <div><Projects /></div>
+          <div><Experience /></div>
+        </div>
       </div>
     </>
   )

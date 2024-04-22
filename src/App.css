@@ -9,11 +9,8 @@
   }
 
 
-.scrollContainer{
-  scroll-snap-type: y mandatory;
-}
-.scrollChild{
-  scroll-snap-align: start;
+.mainContainer{
+  display: flex;
 }
 
   h3{
@@ -97,8 +94,13 @@ margin-left: 190px;
 .xprow{
   margin-top: 420px;
   margin-left: 80px;
+  margin-right: 80px;
   display: flex;
   justify-content: center;
+}
+.xpcontainer{
+  display: flex;
+  justify-content: space-between;
 }
 .xpBox{
   width: 30%;

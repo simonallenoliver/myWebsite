@@ -9,7 +9,7 @@ const Projects = () => {
                 <div className='projectContainer'>
                     <div className='projectBox'>
                         <h2>Leafy</h2>
-                        <p>a plant ecommerce website I built with JS, React and MongoDB</p>
+                        <p>a plant ecommerce website I built with MongoDB, Express, React, and Node</p>
                         <a href="https://youtu.be/DoZp1ffD8QA?t=698" target="_blank"><div className='imageBox'><img src="/images/leafySC.png" className='projectImage' alt="sand screenshot" /></div></a>
                         
                     </div>
