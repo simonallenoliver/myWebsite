@@ -5,7 +5,7 @@ const Projects = () => {
         <div className='projRow'>
             <div className='projectSection'>
                 <h1 id='Projects'>Projects</h1>
-                <h2>Click one of the images to watch a short presentation on the project</h2>
+                <h2 className='projClick'>Click one of the images to watch a short presentation on the project</h2>
                 <div className='projectContainer'>
                     <div className='projectBox'>
                         <div className='leftyBox'>
