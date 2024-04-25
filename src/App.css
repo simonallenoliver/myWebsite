@@ -68,6 +68,7 @@ h3 {
   font-size: 50pt;
   text-decoration: dotted;
   margin-top: 130px;
+  font-family: sans-serif;
 }
 
 #fullstack {
@@ -147,7 +148,7 @@ h3 {
 .toolRow {
   margin-top: 10px;
   display: flex;
-  
+
 }
 
 .toolCol {
@@ -202,9 +203,11 @@ h3 {
   margin-top: 30px;
   justify-content: space-around;
 }
-.projClick{
+
+.projClick {
   font-size: 13pt;
 }
+
 .projectBox {
 
   padding: 10px;
@@ -225,56 +228,7 @@ h3 {
 .projectImage:hover {
   transform: scale(1.1);
 }
-@media (max-width: 1000px) {
-  #Projects {
-    font-size: 30pt;
-    font-weight: 250;
-    margin-bottom: 10px;
-    font-family: Alegreya Sans;
-  }
-  
-  .projRow {
-    margin-top: 150px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .projectSection {
-    padding: 10px;
-    margin: 0 20px 0 20px;
-  }
-  
-  .projectContainer {
-    display: inline;
-    gap: 0px;
-    margin-top: 30px;
-  }
-  .projectBox {
-    display: flex;
-    padding: 10px 10px 10px 0;
-    width: 100%;
-  }
-  
-  .imageBox {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-  }
-  .leftyBox{
-    flex: 1;
-  }
-  .rightyBox{
-    flex: 1;
-  }
-  .projectImage {
-    width: 80%;
-  }
-  
-  .projectImage:hover {
-    transform: scale(1.5);
-  }
-}
+
 
 
 /* Utility Classes */
@@ -286,31 +240,41 @@ h3 {
 /* MOBILE */
 
 @media (max-width: 1000px) {
-  .plzWork{
+  .plzWork {
     margin-left: 30px;
     margin-right: 30px;
   }
+
   .row1 {
     display: inline;
     width: auto;
 
   }
-  .col1{
+
+  .col1 {
     width: auto;
   }
-  .col2{
+
+  .col2 {
     width: auto;
   }
+
   #simonOliver {
-    font-size: 15vw;
+    font-size: 30pt;
     text-decoration: dotted;
-    margin-top: 130px;
+    margin-top: 50px;
   }
+
+  #fullstack {
+    font-size: 24pt;
+  }
+
   .longtext {
     font-family: Alegreya Sans;
     max-width: 100%;
   }
-/* header stuff */
+
+  /* header stuff */
   .headerBox {
     padding: 4px 0px 4px 0px;
     display: flex;
@@ -318,25 +282,84 @@ h3 {
     border-bottom: 1px solid grey;
     max-width: 100%;
   }
+
   .icon {
-    width: 24px;
+    width: 44px;
   }
+
   .icon:hover {
     transform: scale(1.2);
   }
+
   .leftBox {
     width: 50%;
   }
+
   .rightBox {
     width: 50%;
   }
+
   .linkBox {
     flex: 1;
     display: flex;
     justify-content: right;
     margin-right: 10px;
   }
+
   .headLinks {
     margin: 5px 7px 5px 7px;
+  }
+
+  #Projects {
+    font-size: 30pt;
+    font-weight: 250;
+    margin-bottom: 10px;
+    font-family: Alegreya Sans;
+  }
+
+  .projRow {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectSection {
+    padding: 10px;
+    margin: 0 20px 0 20px;
+  }
+
+  .projectContainer {
+    display: inline;
+    gap: 0px;
+    margin-top: 30px;
+  }
+
+  .projectBox {
+    display: flex;
+    padding: 10px 10px 10px 0;
+    width: 100%;
+  }
+
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .leftyBox {
+    flex: 1;
+  }
+
+  .rightyBox {
+    flex: 1;
+  }
+
+  .projectImage {
+    width: 80%;
+  }
+
+  .projectImage:hover {
+    transform: scale(1.5);
   }
 }
