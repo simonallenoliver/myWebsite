@@ -22,12 +22,15 @@ const Toolbox = () => {
                         <p>Vite</p>
                         <p>Ajax</p>
                         <p>Bootstrap</p>
+                        <p>.NET</p>
                     </div>
                     <div className='lilToolBox'>
                         <h3>Back End</h3>
                         <p>NODE.js</p>
                         <p>Express</p>
                         <p>Flask</p>
+                        <p>.NET</p>
+                        <p>Entity</p>
                     </div>
                     <div className='lilToolBox'>
                         <h3>Database</h3>
