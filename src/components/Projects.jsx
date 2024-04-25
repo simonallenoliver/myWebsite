@@ -10,7 +10,7 @@ const Projects = () => {
                     <div className='projectBox'>
                         <div className='leftyBox'>
                             <h2>Leafy</h2>
-                            <p>a plant ecommerce website I built with MongoDB, Express, React, and Node</p>
+                            <p>A plant ecommerce website I built with MongoDB, Express, React, and Node</p>
                         </div>
                         <div className='rightyBox'>
                         <a href="https://youtu.be/DoZp1ffD8QA?t=698" target="_blank"><div className='imageBox'><img src="/images/leafySC.png" className='projectImage' alt="sand screenshot" /></div></a>
@@ -19,7 +19,7 @@ const Projects = () => {
                     <div className='projectBox'>
                         <div className='leftyBox'>
                             <h2>Sand</h2>
-                            <p>a short browser interactive story I built using Python, Flask and MySQL</p>
+                            <p>A short browser interactive story I built using Python, Flask and MySQL</p>
                         </div>
                         <div className='rightyBox'>
                         <a href="https://youtu.be/gJuLIOO7wyo?t=15" target='_blank'><div className='imageBox'><img src="/images/sandScreenShot.png" className='projectImage' alt="sand screenshot" /></div></a>
@@ -28,7 +28,7 @@ const Projects = () => {
                     <div className='projectBox'>
                         <div className='leftyBox'>
                             <h2>Forsaken Forest</h2>
-                            <p>a little 2d game I made using the Godot game engine's Python-like language, GDScript</p>
+                            <p>A little 2d game I made using the Godot game engine's Python-like language, GDScript</p>
                         </div>
                         <div className='rightyBox'>
                             <a href="https://youtu.be/GQEFtYfaGDI?t=105" target='_blank'><div className='imageBox'><img src="/images/forsakenSC.png" className='projectImage' alt="sand screenshot" /></div></a>

@@ -65,7 +65,7 @@ h3 {
 
 
 #simonOliver {
-  font-size: 50pt;
+  font-size: 46pt;
   text-decoration: dotted;
   margin-top: 130px;
   font-family: sans-serif;
@@ -362,4 +362,37 @@ h3 {
   .projectImage:hover {
     transform: scale(1.5);
   }
+/* my tools classes */
+.toolRow {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.toolCol {
+  flex: 1;
+}
+
+#myTools {
+  font-size: 30pt;
+  font-family: Alegreya Sans;
+  font-weight: 250;
+  margin: 20px 0 0px 0;
+  margin-left: 0;
+}
+
+.toolBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.lilToolBox {
+  width: 35%;
+  padding: 10px 48px 15px 0px;
+  padding-right: 3%;
+}
+
 }
