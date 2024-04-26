@@ -7,7 +7,7 @@ const Hello = () => {
             <div className='row1'>
                 
                 <div className='col1'>
-                    <h1 id='simonOliver'>SIMON OLIVER</h1>
+                    <h1 id='simonOliver'>Simon Oliver</h1>
                     <h2 id='fullstack'>Full-Stack Developer</h2>
                 </div>
 

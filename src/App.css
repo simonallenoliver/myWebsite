@@ -8,6 +8,10 @@
   background-color: rgb(28, 27, 33);
 }
 
+@font-face {
+  font-family: Azanka;
+  src: url('../src/fonts/Azanka.ttf');
+}
 
 .mainContainer {
   display: flex;
@@ -65,18 +69,20 @@ h3 {
 
 
 #simonOliver {
-  font-size: 46pt;
+  font-size: 69pt;
   text-decoration: dotted;
   margin-top: 130px;
-  font-family: sans-serif;
+  font-family: Azanka, sans-serif;
 }
 
 #fullstack {
   font-size: 30pt;
   font-weight: 250;
+  margin-top: -20px;
   margin-bottom: 13px;
   font-family: Alegreya Sans;
   color: rgb(254, 208, 32);
+  margin-left: 3px;
 }
 
 .aboutMe {
@@ -260,15 +266,18 @@ h3 {
   }
 
   #simonOliver {
-    font-size: 30pt;
+    font-size: 60pt;
     text-decoration: dotted;
     margin-top: 50px;
   }
 
   #fullstack {
     font-size: 24pt;
+    margin-left: 3px;
   }
-
+.aboutMe{
+  font-size: 24pt;
+}
   .longtext {
     font-family: Alegreya Sans;
     max-width: 100%;
@@ -311,7 +320,7 @@ h3 {
   }
 
   #Projects {
-    font-size: 30pt;
+    font-size: 24pt;
     font-weight: 250;
     margin-bottom: 10px;
     font-family: Alegreya Sans;
@@ -336,6 +345,7 @@ h3 {
   }
 
   .projectBox {
+    margin-top: 20px;
     display: flex;
     padding: 10px 10px 10px 0;
     width: 100%;
@@ -364,7 +374,7 @@ h3 {
   }
 /* my tools classes */
 .toolRow {
-  margin-top: 10px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -374,7 +384,7 @@ h3 {
 }
 
 #myTools {
-  font-size: 30pt;
+  font-size: 24pt;
   font-family: Alegreya Sans;
   font-weight: 250;
   margin: 20px 0 0px 0;
