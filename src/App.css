@@ -62,7 +62,7 @@ h3 {
 
 /* Simon Classes */
 .row1 {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -71,7 +71,7 @@ h3 {
 #simonOliver {
   font-size: 69pt;
   text-decoration: dotted;
-  margin-top: 130px;
+  margin-top: 0px;
   font-family: Azanka, sans-serif;
 }
 
@@ -85,6 +85,15 @@ h3 {
   margin-left: 3px;
 }
 
+.simonPic{
+  width: 320px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.simonPicBox{
+  display: flex;
+  justify-content:left;
+}
 .aboutMe {
   font-size: 30pt;
   font-weight: 250;
@@ -96,6 +105,7 @@ h3 {
   display: flex;
   padding: 0px;
   font-size: 13pt;
+  margin-top: 30px;
 }
 
 .longtext {
@@ -104,6 +114,7 @@ h3 {
 }
 
 .col1 {
+  margin-left: 0px;
   width: 35%;
 }
 
@@ -274,6 +285,15 @@ h3 {
   #fullstack {
     font-size: 24pt;
     margin-left: 3px;
+  }
+  .simonPic{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .simonPicBox{
+    display: flex;
+    justify-content:center;
   }
 .aboutMe{
   font-size: 24pt;

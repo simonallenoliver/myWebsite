@@ -9,6 +9,7 @@ const Hello = () => {
                 <div className='col1'>
                     <h1 id='simonOliver'>Simon Oliver</h1>
                     <h2 id='fullstack'>Full-Stack Developer</h2>
+                    <div className='simonPicBox'><img src="/images/newhs.jpg" alt="simon pic" className='simonPic'/></div>
                 </div>
 
                 <div className='col2'>
